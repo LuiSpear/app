@@ -1,35 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>           
-        <title>Mi primer pagina web</title>
         <meta charset="utf-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mi primer pagina web</title>
+        <style>
+          #titulo {
+            background-color: aqua;
+        }
+          .con_borde{
+            border-color: blue;
+            border: 50px solid;
+          }
+        </style>
     </head>
     <body>
-        
-        <h1>Corona Villaseñor Luis Jesus</h1>
+       #titulo
         <header>
             <nav>
-
-            </nav>
-        </header>
-        <div class="container">
-            <aside>
-                <ol>
+                <ul>
                     <li>Principal</li>
                     <li>Informacion</li>
                     <li>Contacto</li>
                     <li>Iniciar sesion</li>
-                </ol>
-                
+                </ul>
+            </nav>
+        </header>
+        <div class="container">
+            <aside>
+                <ul id="lista">
+                    <li>item 1</li>
+                    <li>item 2</li>
+                    <li>item 3</li>
+                    <li>item 4</li>
+                </ul>
             </aside>
             <section>
-                <img src="./images/Noble6.webp" alt="">
+                <h1 id="titulo" class="borde">Mi primer pagina web</h1>
+                <img id="Imagen 1" src="./images/Noble6.webp" alt="">
+                <img id="Imagen 2" style="margin-left: 50px;" src="./images/Noble6.webp" alt="">
             </section>
         </div>
         <footer>
             <p>Copyright de mi pagina</p>
         </footer>
         <a href="https://www.youtube.com/watch?v=y4_C2ruKl0A">Click aqui</a>
-
     </body>
 </html>
