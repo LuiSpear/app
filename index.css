@@ -1,0 +1,71 @@
+/* CSS */
+html , body {
+    display: flex; 
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 20%;
+    background-color: black;
+    color: aquamarine;
+    padding-right: 40px; 
+}
+
+#contenedor_principal {
+    height: 60%;
+    background-color: antiquewhite;
+    color: black;
+    display:flex
+}
+.pie_pagina{
+    height: 20%;
+    display: flex;
+    background-color: black;
+    color: aquamarine;
+}
+.lateral {
+    width: 30%;
+    background-color: darkgreen;
+    justify-content: end;
+    display: flex;
+    align-items: center;
+}
+
+#titulo {
+background-color: black;
+color: aquamarine;
+}
+.con_borde{
+border-color: blue;
+border: 50px solid;
+}
+ul li {
+display: inline;
+margin-left: 20px;
+}
+ul li:hover{
+color: green
+}
+.parrafo {
+text-align: justify;
+border: 1px solid;
+border-color: blueviolet;
+border-radius: 10px;
+font-size: 20px;
+font-family: cursive;
+}
+.principal {
+padding: 0px 30px;
+width: 70%;
+}
+#lista {
+list-style-type: none;
+}
+.boton {
+color: black;
+}

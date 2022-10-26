@@ -5,60 +5,29 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Mi primer pagina web</title>
-        <style>
-            html , body {
-                display: flex; 
-                flex-direction: column;
-                margin: 0px;
-                padding: 0px;
-                height: 100%;
-            }
-            header{
-                height: 20%;
-                background-color: black;
-                color: aquamarine
-            }
-            
-            #contenedor_principal {
-                height: 60%;
-                background-color: antiquewhite;
-                color: black;
-            }
-            .pie_pagina{
-                height: 20%;
-                display: flex;
-                background-color: black;
-                color: aquamarine;
-            }
-            .lateral {
-                background-color: darkgreen;
-                display: flex;
-            }
-          
-          #titulo {
-            background-color: black;
-            color: aquamarine;
-        }
-          .con_borde{
-            border-color: blue;
-            border: 50px solid;
-          }
-        </style>
-    </head>
+        <link rel="stylesheet" href="index.css">
+        </head>
     <body>
         <header>
             <nav>
-                <ol>
+                <ul>
                     <li>Inicio</li>
                     <li>Nosotros</li>
                     <li>Contacto</li>
-                </ol>
+                </ul>
             </nav>
         </header>
         <div id="contenedor_principal" class="contenedor">
             <section class="principal">
                 <h1 id="titulo" class="borde">Mi primer pagina web</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis dolores porro nisi accusantium neque tenetur, quia provident necessitatibus, incidunt voluptates perferendis! Impedit cupiditate molestias odio, numquam aliquid a deserunt hic.</p>
+                <p class="parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis dolores porro nisi accusantium neque tenetur, quia provident necessitatibus, incidunt voluptates perferendis! Impedit cupiditate molestias odio, numquam aliquid a deserunt hic.</p>
+                <button class="boton">
+                    Entrar
+                </button>
+                <input type="submit">
+                <input type="text">
+                <input type="button">
+                <input type="button">
                 <!-- <img id="Imagen 1" src="./images/Noble6.webp" alt=""> -->
                 <!-- <img id="Imagen 2" style="margin-left: 50px;" src="./images/Noble6.webp" alt=""> -->
             </section>
